@@ -1,4 +1,8 @@
+import datastructure.PriorityQueue;
 import search.Recursion;
+
+import java.util.Random;
+
 
 /**
  * @author hyp 1774549483@qq.com
@@ -9,6 +13,13 @@ import search.Recursion;
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.printf(""+Recursion.Hanrota(30));
+
+        PriorityQueue priorityQueue = new PriorityQueue();
+        for(int i=0;i<10000000;i++){
+            priorityQueue.offer(new Random().nextInt(1000000));
+        }
+        for(int i=0;i<10000000;i++){
+            priorityQueue.poll();
+        }
     }
 }
