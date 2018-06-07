@@ -1,3 +1,5 @@
+import search.Recursion;
+
 /**
  * @author hyp 1774549483@qq.com
  * @version v1.0
@@ -7,6 +9,6 @@
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("hello world");
+        System.out.printf(""+Recursion.Hanrota(30));
     }
 }
