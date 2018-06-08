@@ -1,28 +1,33 @@
 package datastructure;
 
 import java.util.Arrays;
+import java.util.Random;
 
 /**
  * @author hyp 1774549483@qq.com
  * @version v1.0
  * @Title:datastructure
- * @description  优先队列=小顶堆
+ * @description 优先队列=小顶堆
  * @date 2018/6/7 13:53
  */
 
 /**
- * test code
  * 对于获取最小值，最大值，很快
  * 也可以用作排序
- PriorityQueue priorityQueue = new PriorityQueue();
- for(int i=0;i<100;i++){
- priorityQueue.offer(new Random().nextInt(1000));
- }
- for(int i=0;i<100;i++){
- System.out.printf(priorityQueue.poll()+"\t");
- }
+ * }
  */
 public class PriorityQueue {
+    public static void main(String[] args) {
+
+        PriorityQueue priorityQueue = new PriorityQueue();
+        for(int i=0;i<10000000;i++){
+            priorityQueue.offer(new Random().nextInt(1000000));
+        }
+        for(int i=0;i<10000000;i++){
+            priorityQueue.poll();
+        }
+    }
+
     private int[] queue = new int[0];
     private int size = 0;
 
@@ -70,8 +75,8 @@ public class PriorityQueue {
             if (queue[i] < queue[child]) {
                 break;
             }
-            swap(i,child);
-            i=child;
+            swap(i, child);
+            i = child;
         }
     }
 
