@@ -28,7 +28,11 @@ public class SearchTree {
 
     private Note root;
 
-
+    /**
+     * 插入节点
+     *
+     * @param x
+     */
     public void insert(int x) {
         Note note = new Note();
         note.setVal(x);
@@ -55,7 +59,12 @@ public class SearchTree {
 
     }
 
-
+    /**
+     * 查找节点
+     *
+     * @param x
+     * @return
+     */
     public boolean find(int x) {
         Note r = root;
         while (r != null) {
@@ -70,7 +79,11 @@ public class SearchTree {
         return false;
     }
 
-
+    /**
+     * 删除节点
+     *
+     * @param x
+     */
     public void removed(int x) {
         Note r = root;
         Note parent = null;
@@ -100,8 +113,13 @@ public class SearchTree {
                 }
                 break;
             } else if (r.left != null) {
-                parent = r;
-                r = r.left;
+                if (r.left.right == null) {
+                    parent = r;
+                    r = r.left;
+                } else {
+                    parent = r.left;
+                    r = r.left.right;
+                }
             } else {
                 parent = r;
                 r = r.right;
