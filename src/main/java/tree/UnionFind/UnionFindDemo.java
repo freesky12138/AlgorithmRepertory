@@ -1,7 +1,6 @@
 package tree.UnionFind;
 
 import java.util.HashMap;
-import java.util.Map;
 
 /**
  * @author hyp 1774549483@qq.com
@@ -16,34 +15,8 @@ public class UnionFindDemo {
     private int[] par;
     private int[] rank;//层数
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-    }
-
-    class Solution {
-        public int longestConsecutive(int[] nums) {
-            //[100, 4, 200, 1, 3, 2]
-            //[2147483646,-2147483647,0,2,2147483644,-2147483645,2147483645]
-            //[1,3,5,2,4]
-            if(nums.length==0)
-                return 0;
-            HashMap<Integer,Integer> hashMap=new HashMap<Integer, Integer>();
-            int max=1;
-
-            for(int i=0;i<nums.length;i++){
-                hashMap.put(nums[i],1);
-                if(hashMap.get(nums[i]+1)!=null){
-                    hashMap.put(nums[i],hashMap.get(nums[i]+1)+1);
-                    max=Math.max(max,hashMap.get(nums[i]));
-                }
-                if(hashMap.get(nums[i]-1)!=null){
-                    hashMap.put(nums[i]-1, Math.max(hashMap.get(nums[i]-1),hashMap.get(nums[i])+1));
-                    max=Math.max(max,hashMap.get(nums[i]-1));
-                }
-
-            }
-            return max;
-        }
     }
 
     /**
