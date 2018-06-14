@@ -13,8 +13,8 @@ import java.util.List;
  * 有较高实用性，适用于负权图。
  * 不断循环所有的边，将记录可到达这条边的最小cost
  * 当无法更新的时候就说明已经获取到了从s点到所有点的最短路径
- *
- * 负圈，一个环所有cose加起来为负数
+ * <p>
+ * 负圈(负权环)，一个环所有cose加起来为负数
  */
 public class BellmanFord {
 
@@ -35,7 +35,43 @@ public class BellmanFord {
         edges.add(new edge(5, 6, 9));
 
         shortestPath(0);
-        System.out.printf("123");
+
+        //检查负权环
+        nodeSize = 10;
+        sortest = new int[nodeSize];
+        edges.add(new edge(6, 7, -9));
+        edges.add(new edge(8, 6, -2));
+        edges.add(new edge(7, 8, -1));
+
+        System.out.printf(checkNegativeRing(0) + "");
+    }
+
+    private static boolean checkNegativeRing(int s) {
+
+        for (int i = 0; i < nodeSize; i++) {
+            sortest[i] = Integer.MAX_VALUE;
+        }
+        sortest[s] = 0;
+
+        int i;
+        for (i = 0; i < nodeSize; i++) {
+            boolean isUpdate = false;
+            for (int j = 0; j < edges.size(); j++) {
+                if (sortest[edges.get(j).to] > sortest[edges.get(j).from] + edges.get(j).cost && sortest[edges.get(j).from] != Integer.MAX_VALUE) {
+                    sortest[edges.get(j).to] = sortest[edges.get(j).from] + edges.get(j).cost;
+                    isUpdate=true;
+                }
+
+            }
+            if(isUpdate==false){
+                break;
+            }
+        }
+
+        if(i>=nodeSize){
+            return true;
+        }
+        return false;
     }
 
     static class edge {

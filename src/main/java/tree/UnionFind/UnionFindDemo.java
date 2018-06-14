@@ -11,7 +11,9 @@ import java.util.HashMap;
  */
 public class UnionFindDemo {
 
-
+    /**
+     * row = [0, 2, 1, 3]
+     */
     private int[] par;
     private int[] rank;//层数
 
