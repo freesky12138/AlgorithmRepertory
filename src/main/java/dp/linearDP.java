@@ -1,11 +1,18 @@
 package main.java.dp;
 
+import java.util.HashMap;
+import java.util.Set;
+
 /**
  * Created by Huppert on 2018/6/10.
  * 线性DP
  */
 public class linearDP {
 
+    public static void main(String[] args) {
+        int[] temp = {1,1,1,1,1};
+        System.out.printf(findTargetSumWays(temp, 3) + "");
+    }
 
     /**
      * 判断字符串  s是否是字符串t的子串
@@ -85,7 +92,7 @@ public class linearDP {
      * 注意: "aba"也是一个有效答案。
      * 输入: "abcda"
      * 输出:
-     *
+     * <p>
      * 确定一个位置，往两边寻找回文
      */
     public String longestPalindrome(String s) {
@@ -125,19 +132,19 @@ public class linearDP {
      * 最长上升序列
      */
     public int lengthOfLIS(int[] nums) {
-        if(nums.length==0){
+        if (nums.length == 0) {
             return 0;
         }
-        int maxLis[]=new int[nums.length];
-        int ans=1;
+        int maxLis[] = new int[nums.length];
+        int ans = 1;
 
-        for(int i=0;i<nums.length;i++){
-            maxLis[i]=1;
-            for(int j=0;j<i;j++){
-                if(nums[i]>nums[j]){
-                    if(maxLis[i]<maxLis[j]+1){
-                        maxLis[i]=maxLis[j]+1;
-                        ans=maxLis[i]>ans?maxLis[i]:ans;
+        for (int i = 0; i < nums.length; i++) {
+            maxLis[i] = 1;
+            for (int j = 0; j < i; j++) {
+                if (nums[i] > nums[j]) {
+                    if (maxLis[i] < maxLis[j] + 1) {
+                        maxLis[i] = maxLis[j] + 1;
+                        ans = maxLis[i] > ans ? maxLis[i] : ans;
                     }
                 }
             }
@@ -147,46 +154,64 @@ public class linearDP {
 
     /**
      * 给定一个包含非负整数的 m x n 网格，请找出一条从左上角到右下角的路径，使得路径上的数字总和为最小。
-
-     说明：每次只能向下或者向右移动一步。
-
-     示例:
-
-     输入:
-     [
-     [1,3,1],
-     [1,5,1],
-     [4,2,1]
-     ]
-     输出: 7
-     解释: 因为路径 1→3→1→1→1 的总和最小。
+     * <p>
+     * 说明：每次只能向下或者向右移动一步。
+     * <p>
+     * 示例:
+     * <p>
+     * 输入:
+     * [
+     * [1,3,1],
+     * [1,5,1],
+     * [4,2,1]
+     * ]
+     * 输出: 7
+     * 解释: 因为路径 1→3→1→1→1 的总和最小。
      */
     class Solution {
         public int minPathSum(int[][] grid) {
-            for(int j=1;j<grid[0].length;j++){
-                grid[0][j]+=grid[0][j-1];
+            for (int j = 1; j < grid[0].length; j++) {
+                grid[0][j] += grid[0][j - 1];
             }
 
-            for(int i=1;i<grid.length;i++){
-                for(int j=0;j<grid[i].length;j++){
-                    if(j==0){
-                        grid[i][j]+=grid[i-1][j];
-                    }else {
-                        grid[i][j]+=grid[i][j-1]<grid[i-1][j]?grid[i][j-1]:grid[i-1][j];
+            for (int i = 1; i < grid.length; i++) {
+                for (int j = 0; j < grid[i].length; j++) {
+                    if (j == 0) {
+                        grid[i][j] += grid[i - 1][j];
+                    } else {
+                        grid[i][j] += grid[i][j - 1] < grid[i - 1][j] ? grid[i][j - 1] : grid[i - 1][j];
                     }
                 }
             }
-            return grid[grid.length-1][grid[0].length-1];
+            return grid[grid.length - 1][grid[0].length - 1];
 
         }
     }
 
-    //leetCode 494
-    public int findTargetSumWays(int[] nums, int S) {
-        int[] dp=new int[1001];
+    /**
+     给定一个非负整数数组，a1, a2, ..., an, 和一个目标数，S。现在你有两个符号 + 和 -。对于数组中的任意一个整数，你都可以从 + 或 -中选择一个符号添加在前面。
 
-        for(int i=0;i<nums.length;i++){
+     返回可以使最终数组和为目标数 S 的所有添加符号的方法数。
 
+
+     数组的长度不会超过20，并且数组中的值全为正数。
+     初始的数组的和不会超过1000。
+     保证返回的最终结果为32位整数。
+
+     */
+    public  static int findTargetSumWays(int[] nums, int S) {
+        if(nums == null || nums.length == 0)return 0;
+        int sum = 0;
+        for(int num:nums)sum+=num;
+        if(sum < S||(sum+S)%2 == 1)return 0;
+        sum = (sum+S)/2;
+        int[] dp = new int[sum+1];
+        dp[0] = 1;
+        for(int num:nums){
+            for(int j = sum;j>=num;j--){
+                dp[j] += dp[j-num];
+            }
         }
+        return dp[sum];
     }
 }
