@@ -6,7 +6,8 @@ package tree;
  * @Title:tree
  * @description
  * @date 2018/6/7 16:58
- */
+ *
+ * 二叉搜索树，左叶子<根<右叶子 */
 public class SearchTree {
 
     public static void main(String[] args) {
@@ -15,15 +16,21 @@ public class SearchTree {
             searchTree.insert(new Random().nextInt(1000));
         }*/
         System.out.printf(searchTree.find(233) + "\t");
-        searchTree.insert(555);
-        searchTree.insert(555);
+        searchTree.insert(1);
+        searchTree.insert(2);
+        searchTree.insert(0);
+        searchTree.insert(-2);
+        searchTree.insert(-1);
+        searchTree.insert(4);
+        searchTree.insert(3);
 
-        System.out.printf(searchTree.find(233) + "\t");
-        System.out.printf(searchTree.find(555) + "\t");
-        searchTree.removed(555);
-        System.out.printf(searchTree.find(555) + "\t");
-        searchTree.removed(555);
-        System.out.printf(searchTree.find(555) + "");
+        System.out.printf(searchTree.find(0) + "\t");
+        System.out.printf(searchTree.find(1) + "\t");
+        searchTree.removed(1);
+        System.out.printf(searchTree.find(1) + "\t");
+        searchTree.removed(0);
+        System.out.printf(searchTree.find(0) + "\t");
+        System.out.printf(searchTree.find(2) + "\t");
     }
 
     private Note root;
@@ -87,6 +94,7 @@ public class SearchTree {
     public void removed(int x) {
         Note r = root;
         Note parent = null;
+        //查找需要删除的节点
         while (r != null) {
             if (r.getVal() == x) {
                 break;
@@ -98,7 +106,10 @@ public class SearchTree {
                 r = r.right;
             }
         }
+
+        //
         while (r != null) {
+            //没有子节点 就把parent指向它的设置为null
             if (r.left == null && r.right == null) {
                 if (parent == null) {
                     if (r.getVal() == x) {
@@ -112,16 +123,21 @@ public class SearchTree {
                     parent.right = null;
                 }
                 break;
+
+                //如果左子树不为空，不能直接更新左节点，还要考虑左节点是否有右节点，如果有右节点那么就
             } else if (r.left != null) {
                 if (r.left.right == null) {
                     parent = r;
+                    r.val=r.left.val;
                     r = r.left;
                 } else {
                     parent = r.left;
+                    r.val=r.left.right.val;
                     r = r.left.right;
                 }
             } else {
                 parent = r;
+                r.val=r.right.val;
                 r = r.right;
             }
         }

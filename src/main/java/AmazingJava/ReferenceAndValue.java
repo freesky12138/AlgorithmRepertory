@@ -4,7 +4,7 @@ package AmazingJava;
  * @author hyp 1774549483@qq.com
  * @version v1.0
  * @Title:AmazyJava
- * @description
+ * @description  java中值传递，引用传递，方法引用传递
  * @date 2018/6/8 14:56
  */
 public class ReferenceAndValue {

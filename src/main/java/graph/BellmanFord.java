@@ -46,6 +46,7 @@ public class BellmanFord {
         System.out.printf(checkNegativeRing(0) + "");
     }
 
+    //检查有没有负环  每次更新都至少有一个点是最短的，如果size个点都遍历完都还可以更新，就说明有负环
     private static boolean checkNegativeRing(int s) {
 
         for (int i = 0; i < nodeSize; i++) {
@@ -85,6 +86,7 @@ public class BellmanFord {
     }
 
 
+    //最短路
     public static void shortestPath(int s) {
 
         for (int i = 0; i < nodeSize; i++) {
@@ -94,6 +96,7 @@ public class BellmanFord {
 
         while (true) {
             boolean isUpdate = false;
+            //遍历所有的边，如果当前边可达并且  当前边加上费用小于目标边的最短值就更新，当无法更新所有边的时候说明已经没有更短的了时间 复杂度为v*size
             for (int i = 0; i < edges.size(); i++) {
                 if (sortest[edges.get(i).from] != Integer.MAX_VALUE && sortest[edges.get(i).to] > sortest[edges.get(i).from] + edges.get(i).cost) {
                     sortest[edges.get(i).to] = sortest[edges.get(i).from] + edges.get(i).cost;

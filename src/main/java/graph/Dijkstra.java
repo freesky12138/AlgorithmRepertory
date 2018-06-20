@@ -3,6 +3,8 @@ package graph;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.PriorityQueue;
+import java.util.Queue;
+import java.util.concurrent.LinkedBlockingQueue;
 
 /**
  * @author hyp 1774549483@qq.com
@@ -50,7 +52,7 @@ public class Dijkstra {
         cost[6][5] = 9;
         dijkstra(0);
         dijkstraByPriorityQueue(0);
-        System.out.printf("");
+        dijkstraSavePath(0);
     }
 
     public static void dijkstra(int s) {
@@ -73,6 +75,7 @@ public class Dijkstra {
                 break;
             used[v] = true;
 
+            //如果cost[v][u]不可达就不会更新d[u]
             for (int u = 0; u < nodeSize; u++) {
                 d[u] = Math.min(d[u], d[v] + cost[v][u]);
             }
@@ -89,6 +92,7 @@ public class Dijkstra {
         }
     }
 
+    //优先队列优化
     public static void dijkstraByPriorityQueue(int s) {
         Arrays.fill(d, Integer.MAX_VALUE/2);
         d[s] = 0;
@@ -112,6 +116,47 @@ public class Dijkstra {
                     priorityQueue.add(new Note(u,d[u]));
                 }
             }
+        }
+    }
+
+    public static int[] path = new int[nodeSize];
+    //寻找最短路过程中记录
+    public static void dijkstraSavePath(int s) {
+
+        Arrays.fill(d, Integer.MAX_VALUE/2);
+        d[s] = 0;
+        path[s]=s;
+        PriorityQueue<Note> priorityQueue = new PriorityQueue<Note>(new Comparator<Note>() {
+            public int compare(Note o1, Note o2) {
+                return o1.value<o2.value?1:0;
+            }
+        });
+
+        priorityQueue.add(new Note(s,0));
+        while (true) {
+
+            //v为最小的点
+            Note v = priorityQueue.poll();
+            if (v==null)
+                break;
+
+            for (int u = 0; u < nodeSize; u++) {
+                if(v.value+cost[v.key][u]<d[u]){
+                    d[u]=v.value+cost[v.key][u];
+                    path[u]=v.key;
+                    priorityQueue.add(new Note(u,d[u]));
+                }
+            }
+        }
+
+        //在path中存在倒序的路径
+        int t=5;
+        while (true){
+            System.out.printf(t+"\t");
+            if(t==0){
+                break;
+            }
+            t=path[t];
         }
     }
 }
