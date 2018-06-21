@@ -128,7 +128,7 @@ public class Dijkstra {
         path[s]=s;
         PriorityQueue<Note> priorityQueue = new PriorityQueue<Note>(new Comparator<Note>() {
             public int compare(Note o1, Note o2) {
-                return o1.value<o2.value?1:0;
+                return o1.value>o2.value?1:-1;
             }
         });
 
