@@ -53,6 +53,8 @@ public class Dijkstra {
         dijkstra(0);
         dijkstraByPriorityQueue(0);
         dijkstraSavePath(0);
+
+
     }
 
     public static void dijkstra(int s) {
@@ -117,6 +119,8 @@ public class Dijkstra {
                 }
             }
         }
+
+
     }
 
     public static int[] path = new int[nodeSize];
