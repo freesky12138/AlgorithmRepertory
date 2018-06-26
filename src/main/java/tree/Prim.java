@@ -7,6 +7,7 @@ import java.util.Arrays;
  * @version v1.0
  * @Title:tree
  * @description 求图的最小生成树 Prim算法
+ * 每次挑选没被选过的且最小的边，  然后用最小的边去更新能够到达的边
  * @date 2018/6/20 19:40
  */
 public class Prim {

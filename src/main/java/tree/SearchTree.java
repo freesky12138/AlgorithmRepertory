@@ -6,8 +6,10 @@ package tree;
  * @Title:tree
  * @description
  * @date 2018/6/7 16:58
+ * 用于数据快速查找
+ * 二叉搜索树，左叶子<根<右叶子
  *
- * 二叉搜索树，左叶子<根<右叶子 */
+ * */
 public class SearchTree {
 
     public static void main(String[] args) {

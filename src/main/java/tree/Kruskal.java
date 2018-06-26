@@ -8,7 +8,8 @@ import java.util.Comparator;
  * @author hyp 1774549483@qq.com
  * @version v1.0
  * @Title:tree
- * @description 最小生成树  每次取最小的边
+ * @description 最小生成树  将所有边排序，从小到大依次取边 ，然后用并查集的思想将点分为已去和未取的，如果这两个点已经是已取的的点就不管，如果有不同的父节点就合并
+ * （不同父节点说明 不在同一棵树上，可以将他们合并，相同父节点就没必要取这条边了）
  * @date 2018/6/20 19:40
  */
 public class Kruskal {

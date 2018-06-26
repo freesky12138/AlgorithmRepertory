@@ -16,7 +16,7 @@ public class ReferenceAndValue {
         int intA = 0;
         int intB = intA;
         intB = 123;
-        setIntval(intA);//值传递,只传递值，值改变了对A和B都没印象
+        setIntval(intA);//值传递,只传递值，值改变了对A和B都没影响,int,Integer,double,Double等
         System.out.printf(intA + "-" + intB + "\n");
 
         //引用传递
