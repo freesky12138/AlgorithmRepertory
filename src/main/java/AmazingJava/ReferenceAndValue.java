@@ -1,5 +1,7 @@
 package AmazingJava;
 
+
+
 /**
  * @author hyp 1774549483@qq.com
  * @version v1.0
@@ -33,7 +35,7 @@ public class ReferenceAndValue {
         System.out.printf(objA.getVal() +   "\n");
 
 
-        objA=null;//只有这样终于把objA设置为null了
+        objA=null;//只有这样终于把objA设置为null了 所以在java的在函数里面设置null有时并不一定会起作用
     }
 
     public static void setIntval(int intval) {
