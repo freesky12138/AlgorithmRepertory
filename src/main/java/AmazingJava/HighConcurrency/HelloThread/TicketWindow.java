@@ -4,7 +4,9 @@ package AmazingJava.HighConcurrency.HelloThread;
  * @author hyp 1774549483@qq.com
  * @version v1.0
  * @Title:AmazingJava.HighConcurrency.HelloThread
- * @description 模拟业务窗口叫号, 每天总共50个号
+ * @description
+ *
+ * 1-3 模拟业务窗口叫号, 每天总共50个号
  * @date 2018/8/15 15:03
  */
 public class TicketWindow extends Thread {
@@ -13,6 +15,7 @@ public class TicketWindow extends Thread {
     /**
      * 如果不加static，那么就是new了4个index出来，每个线程访问的都是各自线程里面的index，
      * 加了static就是访问的同一个index
+     * index就是共享资源
      */
     private static int index = 1;
 

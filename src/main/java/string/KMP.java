@@ -12,6 +12,7 @@ public class KMP {
 
         String child = "ABABCAB";
         //              0012012
+
         KMP kmp = new KMP();
         kmp.isChild(child, parent);
         System.out.printf(kmp.KMP(child, parent)+"");
