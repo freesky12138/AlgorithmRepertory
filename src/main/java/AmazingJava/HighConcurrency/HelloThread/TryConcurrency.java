@@ -23,12 +23,13 @@ import java.util.concurrent.TimeUnit;
  */
 public class TryConcurrency {
 
+    //对于两个线程，处理同一个value，加static是一个简单方法，但是还是会有问题
     private static int value=0;
 
     public static void main(String[] args){
         Thread thread =new Thread(TryConcurrency::browseNews);
         thread.start();
-        //调用start后 private ThreadGroup group; 线程会被放入 ThreadGroup
+        //调用start后 private MyThreadGroup group; 线程会被放入 MyThreadGroup
         //run方法会在jni中被调用
         //一个线程不能两次执行start方法 ，再调一次start会报错
         //thread.start();

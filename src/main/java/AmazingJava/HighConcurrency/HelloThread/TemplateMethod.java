@@ -11,6 +11,9 @@ import java.util.*;
  *
  * 1-2
  * 使用下面方法模拟线程的执行，wrapPring相当于是run方法，print相当于start方法
+ * 在main中复写wrapPring就相当于在复写runnable
+ * 在main中复写，调用start的时候去调用复写的方法
+ *
  */
 public class TemplateMethod {
 
