@@ -7,7 +7,7 @@ import java.util.stream.IntStream;
  * @version v1.0
  * @Title:AmazingJava.HighConcurrency.DeepUnderstandThread
  * @description 2-1 对于一个线程他是有自己的名字的
- * 如果没有对一个线程命名，
+ * 如果没有对一个线程命名，那么系统就会给这个线程取一个名字Thread-0,1,2,3
  * @date 2018/8/27 15:02
  */
 public class NamedThread {

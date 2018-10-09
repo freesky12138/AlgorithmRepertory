@@ -16,7 +16,8 @@ import java.util.concurrent.TimeUnit;
                 RUNNING可以直接进入TERMINATED状态，比如使用了stop方法
                 RUNNING调用了sleep，wait方法，或者某个阻塞的IO操作，获取了某个锁资源，会进入Blocked状态
                 RUNNING主动调用yield，放弃cpu执行权，或者cpu轮询是该进程放弃执行权，会进入RUNNABLE状态
-    BLOCKED    线程被锁，进去等待状态，BLOCKE的线程阻塞结束或者休眠结束或者被唤醒，或者获取了某个锁资源，进入runnable状态，不直接进入running状态
+    BLOCKED    线程被锁，进去等待状态，BLOCKE的线程阻塞结束或者休眠结束或者被唤醒，或者获取了某个锁资源，
+                解锁后进入runnable状态，不直接进入running状态
 
     TERMINATED 线程的最终状态，生命周期结束，不会切换到任何其他状态，在线程正常结束，意外结束，或者JVM Crash，就会导致线程结束
  * @date 2018/8/14 11:19
@@ -24,6 +25,7 @@ import java.util.concurrent.TimeUnit;
 public class TryConcurrency {
 
     //对于两个线程，处理同一个value，加static是一个简单方法，但是还是会有问题
+    //最终还是可能不为0，在后面使用synchronized (MUTEX)可解决
     private static int value=0;
 
     public static void main(String[] args){
@@ -45,7 +47,7 @@ public class TryConcurrency {
     }
 
     private static void browseNews() {
-        for(int i=0;i<1000;i++){
+        for(int i=0;i<10;i++){
             value++;
             System.out.printf("browseNewsbrowseNews%d\n",value);
             sleep(1);
@@ -53,7 +55,7 @@ public class TryConcurrency {
     }
 
     private static void enjoyMusic() {
-        for(int i=0;i<1000;i++){
+        for(int i=0;i<10;i++){
             value--;
             System.out.printf("enjoyMusicenjoyMusic%d\n",value);
             sleep(1);
