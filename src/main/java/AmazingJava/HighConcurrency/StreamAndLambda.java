@@ -14,7 +14,29 @@ import java.util.stream.IntStream;
 public class StreamAndLambda {
 
     public static void main(String[] args){
+        //Lambda 表达式  相当于产生一个没有名字的匿名函数   ->前面是入参，后面是函数内容，当个参数不要(),  单行内容的就不需要{}
+        //(x,y)->{ System.out.println(x+y) }
+        //x-> System.out.println(x)
+
+        List<String> strings=new ArrayList<>();
+        strings.add("cs");
+        strings.forEach(t->
+            System.out.println(t)
+        );
+
         IntStream.range(0, 10).forEach(value -> System.out.println(value));
+        IntStream.range(0, 10).forEach(value -> {
+            System.out.println(value);
+            System.out.println(value);
+        });
+
+        //mapToObj是将map的i转换成一个object,在 ->后面必须有返回值，返回值就是转换成的类型，然后在fouEach中对这个返回的类型进行操作
+        IntStream.range(0, 5).mapToObj(
+                i->
+                {
+                    return i*10;
+                }
+        ).forEach(System.out::println);
 
         //元素个数
         List<Integer> list = IntStream.range(1, 100).boxed().collect(Collectors.toList());
@@ -36,13 +58,13 @@ public class StreamAndLambda {
         List<String> ls = Arrays.asList(names).stream().filter(s -> s.startsWith("C")).collect(Collectors.toList());
         System.out.println(ls.toString());
 
-
         //大写，排序
         Arrays.asList(names)
                 .stream()
                 .map(String::toUpperCase)
                 .sorted().forEach(System.out::println);
 
+        //按年龄分类
         List<Person> persons=new ArrayList<>();
         persons.add(new Person("Fred Edwards",12));
         persons.add(new Person("14",13));
