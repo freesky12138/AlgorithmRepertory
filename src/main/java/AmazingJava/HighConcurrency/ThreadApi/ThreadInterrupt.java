@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
  * @Title:AmazingJava.HighConcurrency.ThreadApi
  * @description 3-3 线程的interrupt  中断阻塞
     如果线程进入阻塞状态  类似sleep，wait等，可以使用interrupt打破这种阻塞状态
-    线程的阻塞如果被打破就会配出InterruptedException异常
+    线程的阻塞如果被打破就会抛出InterruptedException异常
  * @date 2018/9/18 10:49
  */
 public class ThreadInterrupt {

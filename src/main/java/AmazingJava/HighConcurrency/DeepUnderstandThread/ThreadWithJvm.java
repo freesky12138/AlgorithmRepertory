@@ -9,6 +9,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @Title:AmazingJava.HighConcurrency.DeepUnderstandThread
  * @description
  *
+ * 2.4
  jvm可以创建多少个线程
 staticsize和计算机硬件还有设置有关
 当staticsize设置越大，可以递归的层数越深，可以创建的线程数量越少

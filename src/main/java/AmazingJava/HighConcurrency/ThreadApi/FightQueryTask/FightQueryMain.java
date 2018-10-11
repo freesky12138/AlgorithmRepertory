@@ -10,6 +10,9 @@ import java.util.stream.Collectors;
  * @version v1.0
  * @Title:AmazingJava.HighConcurrency.ThreadApi.FightQueryTask
  * @description  3-4
+ * 模拟三架飞机从A地到B地，三家飞机同步起飞，时间随机，记录他们花费的时间
+ * 三个子线程模拟三家飞机
+ * 主线程等三个子线程结束
  * @date 2018/9/19 10:44
  */
 public class FightQueryMain {

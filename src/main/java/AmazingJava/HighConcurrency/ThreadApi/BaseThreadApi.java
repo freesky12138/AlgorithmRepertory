@@ -54,7 +54,6 @@ public class BaseThreadApi {
             }
         });
 
-
         sleepThread.start();
         try {
             TimeUnit.MILLISECONDS.sleep(100);

@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @author hyp 1774549483@qq.com
  * @version v1.0
  * @Title:AmazingJava.HighConcurrency.ThreadApi
- * @description
+ * @description 3.2线程优先级
  * @date 2018/9/18 10:31
  */
 public class ThreadPriority {
@@ -33,9 +33,9 @@ public class ThreadPriority {
         t2.setDaemon(true);
         //线程共1-10级，main中默认是5级
         t1.setPriority(1);
-        System.out.println(t2.getPriority());
-        t2.setPriority(10);
+        System.out.println(t1.getPriority());
         //通过查看setPriority源码，如果当前设置的线程优先级大于group的最大优先级，那么设置的这个优先级就会是当前group的最大优先级
+        t2.setPriority(10);
         System.out.println(t2.getPriority());
         System.out.println(t2.getThreadGroup().getMaxPriority());
 

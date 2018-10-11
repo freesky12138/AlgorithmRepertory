@@ -9,7 +9,8 @@ import java.util.stream.IntStream;
  * @author hyp 1774549483@qq.com
  * @version v1.0
  * @Title:AmazingJava.HighConcurrency.ThreadApi
- * @description Join 和 Sleep一样是一个可中断的方法
+ * @description 3.5Join 和 Sleep一样是一个可中断的方法
+ * 在当前线程A中执行B的Join方法，A会等待B线程结束后方能继续进行，A进入一个阻塞的状态。
  * @date 2018/9/18 16:39
  */
 public class ThreadJoin {
