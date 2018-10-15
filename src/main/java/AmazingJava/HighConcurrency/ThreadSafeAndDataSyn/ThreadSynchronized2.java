@@ -13,7 +13,7 @@ Synchronized提供了一种互斥机制，同一时刻，只能有一个线程�
 public class ThreadSynchronized2 implements Runnable {
     private static final int MAX = 1000;
 
-    private   int index = 1;//和ThreadSynchronized对比，ThreadSynchronized2只有一个类，用的同一个runnable,没有创建多个Thread
+    private int index = 1;//和ThreadSynchronized对比，ThreadSynchronized2只有一个类，用的同一个runnable,没有创建多个Thread
 
     private final static Object MUTEX=new Object();
 

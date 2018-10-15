@@ -49,6 +49,10 @@ public class ThreadsEvenQueue {
     //添加时间
     public void offert(Even even) {
         synchronized (evenQueue) {
+
+            //为什么要加这个while
+            //因为是notifyAll，所以会唤醒所有等待的线程，被唤醒后，开始争抢 锁， 虽然有先后顺序，但是用if都会往下执行，导致evenQueue.size() >= max实际没有受到限制
+            //如果使用notify，只会唤醒其中一个线程，这样就导致每次唤醒一个固定线程
             while (evenQueue.size() >= max) {
                 try {
                     console("queue full");

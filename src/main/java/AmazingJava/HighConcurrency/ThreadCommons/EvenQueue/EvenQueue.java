@@ -46,7 +46,7 @@ public class EvenQueue {
         }
     }
 
-    //添加时间
+    //添加事件
     public void offert(Even even) {
         synchronized (evenQueue) {
             if (evenQueue.size() >= max) {

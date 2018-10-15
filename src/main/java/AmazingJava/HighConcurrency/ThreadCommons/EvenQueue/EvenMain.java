@@ -20,6 +20,9 @@ import java.util.concurrent.TimeUnit;
 
 /**
  *下面类中建立EvenQueue ，可以向其中添加或者去除Even，当添加满后会等待被取出，单取出为空后会等待添加
+ *
+ * 在EvenQueue中，只有一个线程可以take或者effert，因为只有一个线程可以获取object的monitor锁
+ *
  */
 public class EvenMain {
     public static void main(String[] args){
@@ -27,7 +30,7 @@ public class EvenMain {
 
         new Thread(()->{
             while(true){
-
+                //wait的时候整个线程阻塞，while循环不再继续执行
                 evenQueue.offert(new EvenQueue.Even());
             }
         },"Producer").start();
