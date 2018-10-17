@@ -32,7 +32,7 @@ public class BasicThreadPool extends Thread implements ThreadPool {
 
     public BasicThreadPool(int initSize, int maxSize, int coreSize, int queueSize) {
         this(initSize, maxSize, coreSize, DEFAULT_THREAD_FACTOR, queueSize
-                , DEFAULT_DENY_POLICY, 10, TimeUnit.SECONDS);
+                , DEFAULT_DENY_POLICY, 1, TimeUnit.SECONDS);
     }
 
     public BasicThreadPool(int initSize, int maxSize, int coreSize, ThreadFactory threadFactory,
@@ -80,6 +80,7 @@ public class BasicThreadPool extends Thread implements ThreadPool {
     @Override
     public void run() {
         while (!isShutdown && !isInterrupted()) {
+
             try {
                 timeUnit.sleep(keepAliveTime);
             } catch (InterruptedException e) {
@@ -91,6 +92,7 @@ public class BasicThreadPool extends Thread implements ThreadPool {
             synchronized (this) {
                 if (isShutdown)
                     break;
+
                 if (runnableQueue.size() > 0 && activeCount < coreSize) {
                     IntStream.range(initSize, coreSize).forEach((i) -> {
                         newThread();
@@ -189,7 +191,7 @@ public class BasicThreadPool extends Thread implements ThreadPool {
 
         @Override
         public Thread creatThread(Runnable runnable) {
-            return new Thread(group,runnable,"ThreadPool-"+COUNTER.getAndIncrement());
+                return new Thread(group,runnable,"ThreadPool-"+COUNTER.getAndIncrement());
         }
     }
 }

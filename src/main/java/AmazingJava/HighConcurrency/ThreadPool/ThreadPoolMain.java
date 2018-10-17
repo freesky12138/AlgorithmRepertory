@@ -12,15 +12,31 @@ import java.util.concurrent.TimeUnit;
  */
 public class ThreadPoolMain {
     public static void main(String[] args) throws InterruptedException {
-        final ThreadPool threadPool = new BasicThreadPool(2, 6, 4, 1000);
+        final ThreadPool threadPool = new BasicThreadPool(2, 10, 4, 1000);
 
-        for (int i = 0; i < 20; i++) {
 
+        new Thread(()->{
+            while (true) {
+                System.out.println("ActivityCount" + threadPool.getActiveCount());
+                System.out.println("QueueSize" + threadPool.getQueueSize());
+                System.out.println("CoreSize" + threadPool.getCoreSize());
+                System.out.println("MaxSize" + threadPool.getMaxSize());
+                System.out.println("============================================" );
+                try {
+                    TimeUnit.SECONDS.sleep(5);
+                } catch (InterruptedException e) {
+
+                }
+            }
+        }).start();
+
+        for (int i = 0; i < 200; i++) {
             threadPool.execute(
                     () -> {
                         try {
                             TimeUnit.SECONDS.sleep(new Random().nextInt(10));
                             System.out.println(Thread.currentThread().getName() + " done.");
+
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }
@@ -29,13 +45,5 @@ public class ThreadPoolMain {
 
         }
 
-        while (true) {
-            System.out.println("ActivityCount" + threadPool.getActiveCount());
-            System.out.println("QueueSize" + threadPool.getQueueSize());
-            System.out.println("CoreSize" + threadPool.getCoreSize());
-            System.out.println("MaxSize" + threadPool.getMaxSize());
-            System.out.println("============================================" );
-            TimeUnit.SECONDS.sleep(5);
-        }
     }
 }
