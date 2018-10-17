@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef08012-4819-4147-9f40-bff4a75c9a2c" name="Default" comment="thread start">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HelloThread/TicketWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HelloThread/TicketWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/string/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/KMP.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,115 +32,56 @@
     <session id="-1278237074">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="8" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.14" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="class" value="1" />
+          <entry key="java" value="167" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="167" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="566" />
+          <entry key="dummy" value="12" />
+          <entry key="java" value="14328" />
+          <entry key="txt" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="566" />
+          <entry key="JAVA" value="14328" />
+          <entry key="PLAIN_TEXT" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HelloThread/TryConcurrency.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HookThreadTry/PreventDuplicated.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-              <folding>
-                <element signature="e#1248#1369#0" expanded="true" />
-                <element signature="e#1368#1369#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/string/KMP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/ReferenceAndValue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HelloThread/TemplateMethod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HelloThread/TicketWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2717">
-              <caret line="182" selection-start-line="182" selection-end-line="182" />
-              <folding>
-                <element signature="e#5559#5560#0" expanded="true" />
-                <element signature="e#5600#5601#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/DeepUnderstandThread/NamedThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/StreamAndLambda.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+            <state relative-caret-position="589">
+              <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,20 +89,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/IntStream.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HookThreadTry/CaptureThreadException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14079">
-              <caret line="793" column="4" selection-start-line="793" selection-start-column="4" selection-end-line="793" selection-end-column="4" />
+            <state relative-caret-position="323">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/Stream.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HookThreadTry/ThreadHook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8569">
-              <caret line="497" column="9" selection-start-line="497" selection-start-column="9" selection-end-line="497" selection-end-column="9" />
+            <state relative-caret-position="684">
+              <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -174,6 +112,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="package-info" />
         <option value="Class" />
       </list>
@@ -181,10 +120,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>add</find>
-      <find>SIZE</find>
-      <find>size</find>
-      <find>findTargetSumWays</find>
       <find>sort</find>
       <find>cost</find>
       <find>run</find>
@@ -196,7 +131,29 @@
       <find>ABABCAB</find>
       <find>Thread</find>
       <find>Thread(Run</find>
+      <find>贪心</find>
+      <find>init</find>
+      <find>parent</find>
+      <find>IntStream.range(0,10).boxed</find>
+      <find>IntStream.range</find>
+      <find>yield</find>
+      <find>10</find>
+      <find>558</find>
+      <find>923</find>
+      <find>1001</find>
+      <find>TicketWindow</find>
+      <find>659</find>
+      <find>100</find>
+      <find>after</find>
+      <find>all</find>
+      <find>digits</find>
+      <find>console</find>
+      <find>release the lock</find>
+      <find>opt</find>
     </findStrings>
+    <replaceStrings>
+      <replace>ThreadSynchronized</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -204,41 +161,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/search/package-info.java" />
-        <option value="$PROJECT_DIR$/src/main/java/search/recursion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/search/Recursion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datastructure/package-info.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AmazyJava/ReferenceAndValue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tree/UnionFind.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tree/IslandsCount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tree/UnionFind/IslandsCount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tree/UnionFind/LongestContinuousSequence.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tree/UnionFind/UnionFindDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dp/linearDP.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datastructure/PriorityQueue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/graph/BellmanFord.java" />
-        <option value="$PROJECT_DIR$/src/main/java/graph/FloydWarshall.java" />
-        <option value="$PROJECT_DIR$/src/main/java/graph/DijkstraSavePoj3255.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tree/SearchTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tree/Prim.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tree/Kruskal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/graph/Dijkstra.java" />
-        <option value="$PROJECT_DIR$/src/main/java/math/Gcd.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/ReferenceAndValue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/math/isPrime.java" />
-        <option value="$PROJECT_DIR$/src/main/java/math/IsPrime.java" />
-        <option value="$PROJECT_DIR$/src/main/java/math/Mod.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/search/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/AmazingJava/DataInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/AmazingJava/ThreadForValue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HelloThread/TryConcurrency.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HelloThread/TemplateMethod.java" />
         <option value="$PROJECT_DIR$/src/main/java/string/KMP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HelloThread/TemplateMethod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/DeepUnderstandThread/ParentThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/DeepUnderstandThread/ThreadGroup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadApi/FightQueryTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadApi/FightQueryTask/FightQuery.java" />
         <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HelloThread/TicketWindow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/DeepUnderstandThread/NamedThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadSafeAndDataSyn/ThreadSynchronized.java" />
         <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/StreamAndLambda.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/DeepUnderstandThread/NamedThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/DeepUnderstandThread/ThreadWithJvm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/DeepUnderstandThread/MyDeamonThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/DeepUnderstandThread/MyThreadGroup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadApi/BaseThreadApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadApi/ThreadPriority.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadApi/ThreadJoin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadApi/ThreadInterrupt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadApi/FightQueryTask/FightQueryTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadApi/FightQueryTask/FightQueryMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadSafeAndDataSyn/Mutex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadSafeAndDataSyn/MothodMutex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadSafeAndDataSyn/DiedMutex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/ShellScript/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/StoredProcedure/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadCommons/ThreadsEvenQueue/EvenQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadCommons/ThreadsEvenQueue/EvenMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadCommons/ThreadsEvenQueue/ThreadsEvenMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadCommons/BooleanLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadCommons/BooleanLockBefore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadCommons/BooleanLock/Lock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadCommons/BooleanLock/BooleanLockMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadCommons/BooleanLock/BooleanLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadGroup/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadGroup/ThreadGroupCopy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dp/linearDP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HelloThread/TryConcurrency.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadCommons/EvenQueue/EvenQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadCommons/EvenQueue/EvenMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadCommons/ThreadsEvenQueue/ThreadsEvenQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadSafeAndDataSyn/ThreadSynchronized2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/AboutOptional.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HookThreadTry/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HookThreadTry/CaptureThreadException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HookThreadTry/ThreadHook.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HookThreadTry/PreventDuplicated.java" />
       </list>
     </option>
   </component>
@@ -257,10 +230,67 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-222" />
-    <option name="y" value="156" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="647" />
+    <option name="y" value="18" />
+    <option name="width" value="1392" />
+    <option name="height" value="955" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code maturityJava</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit</id>
+          </State>
+          <State>
+            <id>JUnitJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 7Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavadocJava</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -270,7 +300,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -321,7 +351,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="AmazingJava" type="462c0819:PsiDirectoryNode" />
               <item name="HighConcurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="DeepUnderstandThread" type="462c0819:PsiDirectoryNode" />
+              <item name="HookThreadTry" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AlgorithmRepertory" type="b2602c69:ProjectViewProjectNode" />
@@ -329,28 +359,34 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="AmazingJava" type="462c0819:PsiDirectoryNode" />
-              <item name="HighConcurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="HelloThread" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535364937001" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539684200748" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="D:/JavaHisCode/trunk" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="AmazingJava.HighConcurrency.ThreadSafeAndDataSyn" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\javaProject\AlgorithmRepertory\src\main\java\AmazingJava\HighConcurrency\ThreadCommons\ThreadsEvenQueue" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -364,7 +400,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamAndLambda">
+  <component name="RunManager" selected="Application.ThreadHook">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -398,13 +434,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.string.KMP" />
+    <configuration name="AboutOptional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AmazingJava.AboutOptional" />
       <module name="AlgorithmRepertory" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.string.*" />
+          <option name="PATTERN" value="AmazingJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -412,13 +448,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NamedThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AmazingJava.HighConcurrency.DeepUnderstandThread.NamedThread" />
+    <configuration name="BooleanLockBefore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AmazingJava.HighConcurrency.ThreadCommons.BooleanLockBefore" />
       <module name="AlgorithmRepertory" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AmazingJava.HighConcurrency.DeepUnderstandThread.*" />
+          <option name="PATTERN" value="AmazingJava.HighConcurrency.ThreadCommons.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -426,13 +462,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamAndLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AmazingJava.HighConcurrency.StreamAndLambda" />
+    <configuration name="CaptureThreadException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AmazingJava.HighConcurrency.HookThreadTry.CaptureThreadException" />
       <module name="AlgorithmRepertory" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AmazingJava.HighConcurrency.*" />
+          <option name="PATTERN" value="AmazingJava.HighConcurrency.HookThreadTry.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -440,13 +476,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicketWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AmazingJava.HighConcurrency.HelloThread.TicketWindow" />
+    <configuration name="ThreadHook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AmazingJava.HighConcurrency.HookThreadTry.ThreadHook" />
       <module name="AlgorithmRepertory" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AmazingJava.HighConcurrency.HelloThread.*" />
+          <option name="PATTERN" value="AmazingJava.HighConcurrency.HookThreadTry.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -454,13 +490,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryConcurrency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AmazingJava.HighConcurrency.HelloThread.TryConcurrency" />
+    <configuration name="ThreadsEvenMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AmazingJava.HighConcurrency.ThreadCommons.ThreadsEvenQueue.ThreadsEvenMain" />
       <module name="AlgorithmRepertory" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AmazingJava.HighConcurrency.HelloThread.*" />
+          <option name="PATTERN" value="AmazingJava.HighConcurrency.ThreadCommons.ThreadsEvenQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -576,19 +612,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.TryConcurrency" />
-      <item itemvalue="Application.TicketWindow" />
-      <item itemvalue="Application.KMP" />
-      <item itemvalue="Application.NamedThread" />
-      <item itemvalue="Application.StreamAndLambda" />
+      <item itemvalue="Application.ThreadsEvenMain" />
+      <item itemvalue="Application.BooleanLockBefore" />
+      <item itemvalue="Application.AboutOptional" />
+      <item itemvalue="Application.CaptureThreadException" />
+      <item itemvalue="Application.ThreadHook" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamAndLambda" />
-        <item itemvalue="Application.NamedThread" />
-        <item itemvalue="Application.TicketWindow" />
-        <item itemvalue="Application.KMP" />
-        <item itemvalue="Application.TryConcurrency" />
+        <item itemvalue="Application.ThreadHook" />
+        <item itemvalue="Application.CaptureThreadException" />
+        <item itemvalue="Application.AboutOptional" />
+        <item itemvalue="Application.BooleanLockBefore" />
+        <item itemvalue="Application.ThreadsEvenMain" />
       </list>
     </recent_temporary>
   </component>
@@ -643,6 +679,22 @@
       <workItem from="1534476682427" duration="1130000" />
       <workItem from="1535351569627" duration="9768000" />
       <workItem from="1535504390295" duration="593000" />
+      <workItem from="1536628992297" duration="6654000" />
+      <workItem from="1537088959089" duration="2254000" />
+      <workItem from="1537145946327" duration="1041000" />
+      <workItem from="1537162808675" duration="10096000" />
+      <workItem from="1537232290673" duration="7272000" />
+      <workItem from="1537252528558" duration="7938000" />
+      <workItem from="1537322148495" duration="3619000" />
+      <workItem from="1537328867274" duration="2954000" />
+      <workItem from="1539076148160" duration="3137000" />
+      <workItem from="1539134076738" duration="5477000" />
+      <workItem from="1539161971487" duration="3444000" />
+      <workItem from="1539219432926" duration="22799000" />
+      <workItem from="1539306939530" duration="21438000" />
+      <workItem from="1539565777840" duration="18918000" />
+      <workItem from="1539651585566" duration="14445000" />
+      <workItem from="1539738384682" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="thread start">
       <created>1534312561200</created>
@@ -665,11 +717,95 @@
       <option name="project" value="LOCAL" />
       <updated>1534327097450</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="thread start">
+      <created>1536629015523</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1536629015523</updated>
+    </task>
+    <task id="LOCAL-00005" summary="thread start">
+      <created>1536635294848</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1536635294848</updated>
+    </task>
+    <task id="LOCAL-00006" summary="thread understand">
+      <created>1537178262600</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1537178262600</updated>
+    </task>
+    <task id="LOCAL-00007" summary="thread api">
+      <created>1537264314561</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1537264314561</updated>
+    </task>
+    <task id="LOCAL-00008" summary="thread start">
+      <created>1537338211424</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1537338211424</updated>
+    </task>
+    <task id="LOCAL-00009" summary="thread start">
+      <created>1539079267966</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1539079267966</updated>
+    </task>
+    <task id="LOCAL-00010" summary="thread start">
+      <created>1539139548571</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1539139548572</updated>
+    </task>
+    <task id="LOCAL-00011" summary="thread">
+      <created>1539243869975</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1539243869975</updated>
+    </task>
+    <task id="LOCAL-00012" summary="进击的巨人">
+      <created>1539247721538</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1539247721538</updated>
+    </task>
+    <task id="LOCAL-00013" summary="thread group">
+      <created>1539327626401</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1539327626407</updated>
+    </task>
+    <task id="LOCAL-00014" summary="thread">
+      <created>1539333172517</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1539333172518</updated>
+    </task>
+    <task id="LOCAL-00015" summary="mythread">
+      <created>1539597658064</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1539597658064</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194502000" />
+    <option name="totallyTimeSpent" value="326296000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -684,7 +820,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19296375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17537314" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -693,18 +829,18 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Nl-Palette" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34093377" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.247557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3852013" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3297062" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32899022" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159913" side_tool="true" weight="0.2790445" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3297062" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="11" weight="0.32899022" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32899022" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32790446" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -726,20 +862,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="thread start" />
     <MESSAGE value="thread学习" />
     <MESSAGE value="KMP" />
-    <option name="LAST_COMMIT_MESSAGE" value="KMP" />
+    <MESSAGE value="thread understand" />
+    <MESSAGE value="thread api" />
+    <MESSAGE value="thread start" />
+    <MESSAGE value="进击的巨人" />
+    <MESSAGE value="thread group" />
+    <MESSAGE value="thread" />
+    <MESSAGE value="mythread" />
+    <option name="LAST_COMMIT_MESSAGE" value="mythread" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/tree/UnionFind/LongestContinuousSequence.java</url>
           <line>40</line>
@@ -754,306 +890,380 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/graph/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/math/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dp/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tree/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/PrintStream.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15542">
-          <caret line="869" column="23" selection-start-line="869" selection-start-column="23" selection-end-line="869" selection-end-column="23" />
+        <state relative-caret-position="26220">
+          <caret line="1443" column="30" selection-start-line="1443" selection-start-column="22" selection-end-line="1443" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Arrays.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58064">
-          <caret line="3127" column="23" selection-start-line="3127" selection-start-column="23" selection-end-line="3127" selection-end-column="23" />
+        <state relative-caret-position="418">
+          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16264">
-          <caret line="903" column="11" selection-start-line="903" selection-start-column="11" selection-end-line="903" selection-end-column="17" />
+        <state relative-caret-position="19">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Set.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/ShellScript/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3154">
-          <caret line="189" column="12" selection-start-line="189" selection-start-column="12" selection-end-line="189" selection-end-column="12" />
+        <state relative-caret-position="57">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/string/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tree/UnionFind/LongestContinuousSequence.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/TimeUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        <state relative-caret-position="364">
+          <caret line="381" column="16" selection-start-line="381" selection-start-column="16" selection-end-line="381" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tree/UnionFind/UnionFindDemo.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="14" />
+        <state relative-caret-position="316">
+          <caret line="352" column="30" selection-start-line="352" selection-start-column="30" selection-end-line="352" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Comparator.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/ThreadGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+        <state relative-caret-position="160">
+          <caret line="381" column="15" selection-start-line="381" selection-start-column="15" selection-end-line="381" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/PriorityQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/StreamAndLambda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2508">
-          <caret line="161" column="44" selection-start-line="161" selection-start-column="29" selection-end-line="161" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/graph/DijkstraSavePoj3255.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/tree/UnionFind/IslandsCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datastructure/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="467">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dp/linearDP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="449">
+          <caret line="192" lean-forward="true" selection-start-line="192" selection-end-line="192" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/graph/BellmanFord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1634">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="202">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/graph/Dijkstra.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="392">
+          <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/graph/FloydWarshall.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="285">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datastructure/PriorityQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/search/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1482">
-          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tree/Prim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/math/Gcd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/math/IsPrime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/math/Mod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/search/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/search/Recursion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search/dfs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/search/Recursion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/DataInfo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/ThreadForValue.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/search/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tree/Kruskal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tree/SearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30951">
-          <caret line="1697" column="18" selection-start-line="1697" selection-start-column="18" selection-end-line="1697" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/SortedSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HelloThread/TryConcurrency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-          <folding>
-            <element signature="e#1248#1369#0" expanded="true" />
-            <element signature="e#1368#1369#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-140">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/string/KMP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        <state relative-caret-position="-501">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/ReferenceAndValue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tree/Kruskal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="658">
+          <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+          <folding>
+            <element signature="e#2100#2101#0" expanded="true" />
+            <element signature="e#2141#2142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datastructure/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HelloThread/TemplateMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="43" />
+        <state relative-caret-position="491">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HelloThread/TryConcurrency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/math/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/math/Gcd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/math/IsPrime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HelloThread/TicketWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2717">
-          <caret line="182" selection-start-line="182" selection-end-line="182" />
+        <state relative-caret-position="266">
+          <caret line="17" column="58" lean-forward="true" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadCommons/EvenQueue/EvenMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadCommons/ThreadsEvenQueue/ThreadsEvenMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadCommons/ThreadsEvenQueue/ThreadsEvenQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="54" column="51" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadCommons/BooleanLockBefore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadCommons/BooleanLock/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadGroup/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadGroup/ThreadGroupCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="53" column="37" lean-forward="true" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadSafeAndDataSyn/DiedMutex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="40" column="46" lean-forward="true" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadSafeAndDataSyn/MothodMutex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-83">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadApi/ThreadPriority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-311">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadCommons/BooleanLock/BooleanLockMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadCommons/EvenQueue/EvenQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-279">
+          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadCommons/BooleanLock/BooleanLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1653">
+          <caret line="94" column="24" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3781">
+          <caret line="235" column="26" selection-start-line="235" selection-start-column="26" selection-end-line="235" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadApi/BaseThreadApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadApi/ThreadJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="29" column="71" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/ReferenceAndValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding>
-            <element signature="e#5559#5560#0" expanded="true" />
-            <element signature="e#5600#5601#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/DeepUnderstandThread/NamedThread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadApi/ThreadInterrupt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadSafeAndDataSyn/ThreadSynchronized.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadSafeAndDataSyn/Mutex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/IntStream.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/ThreadSafeAndDataSyn/ThreadSynchronized2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14079">
-          <caret line="793" column="4" selection-start-line="793" selection-start-column="4" selection-end-line="793" selection-end-column="4" />
+        <state relative-caret-position="589">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/Stream.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/AboutOptional.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8569">
-          <caret line="497" column="9" selection-start-line="497" selection-start-column="9" selection-end-line="497" selection-end-column="9" />
+        <state relative-caret-position="50">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/StreamAndLambda.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HookThreadTry/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+        <state relative-caret-position="76">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HookThreadTry/PreventDuplicated.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HookThreadTry/ThreadHook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AmazingJava/HighConcurrency/HookThreadTry/CaptureThreadException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
         </state>
       </provider>
     </entry>
