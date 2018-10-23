@@ -27,12 +27,13 @@ public class BasicThreadPool extends Thread implements ThreadPool {
     private final Queue<ThreadTask> threadQueue = new ArrayDeque<>();
     private final static DenyPolicy DEFAULT_DENY_POLICY = new DenyPolicy.DiscardDenyPolicy();
     private final static ThreadFactory DEFAULT_THREAD_FACTOR = new DefaultThreadFactor();
+    //线程池多久检查一次更新线程数量
     private final long keepAliveTime;
     private final TimeUnit timeUnit;
 
     public BasicThreadPool(int initSize, int maxSize, int coreSize, int queueSize) {
         this(initSize, maxSize, coreSize, DEFAULT_THREAD_FACTOR, queueSize
-                , DEFAULT_DENY_POLICY, 1, TimeUnit.SECONDS);
+                , DEFAULT_DENY_POLICY, 10, TimeUnit.SECONDS);
     }
 
     public BasicThreadPool(int initSize, int maxSize, int coreSize, ThreadFactory threadFactory,
