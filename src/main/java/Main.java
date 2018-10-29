@@ -14,6 +14,7 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
 
+        //优先队列
         PriorityQueue priorityQueue = new PriorityQueue();
         for(int i=0;i<10000000;i++){
             priorityQueue.offer(new Random().nextInt(1000000));
