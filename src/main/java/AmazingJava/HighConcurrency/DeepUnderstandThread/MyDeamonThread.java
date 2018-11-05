@@ -7,21 +7,20 @@ import java.util.concurrent.TimeUnit;
  * @version v1.0
  * @Title:AmazingJava.HighConcurrency.DeepUnderstandThread
  * @description 2.6守护线程 会跟随程序终止而结束的线程
-当所有的非守护线程结束时，程序也就终止了，同时会杀死进程中的所有守护线程
-如果是非守护线程，程序结束，非守护线程还在
-
-守护线程经常执行一些后台任务，会随着程序的结束而结束
+ * 当所有的非守护线程结束时，程序也就终止了，同时会杀死进程中的所有守护线程
+ * 如果是非守护线程，程序结束，非守护线程还在
+ * <p>
+ * 守护线程经常执行一些后台任务，会随着程序的结束而结束
  * @date 2018/9/17 17:38
  */
 public class MyDeamonThread {
 
 
-
-    public static void main(String[] args){
-        Thread thread=new Thread(new Runnable() {
+    public static void main(String[] args) {
+        Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {
-                while (true){
+                while (true) {
                     try {
                         TimeUnit.SECONDS.sleep(1);
                         System.out.println("life");

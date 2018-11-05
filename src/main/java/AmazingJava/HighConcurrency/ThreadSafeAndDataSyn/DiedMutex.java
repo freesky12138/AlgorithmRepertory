@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
  * @Title:AmazingJava.HighConcurrency.ThreadSafeAndDataSyn
  * @description 4-3-2死锁的产生
  * 造成死锁，write和read拿着对方需要的锁相互等待
- *
+ * <p>
  * 程序死锁种类：
  * 1本代码中的交叉锁，互相拿着对方的锁等待
  * 2内存不足，一直等待
@@ -22,34 +22,35 @@ public class DiedMutex {
     private static final Object Write = new Object();
     private static final Object Read = new Object();
 
-    private void write(){
-        synchronized (Write){
+    private void write() {
+        synchronized (Write) {
             try {
                 TimeUnit.SECONDS.sleep(1);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            synchronized (Read){
+            synchronized (Read) {
                 System.out.println("write");
             }
         }
     }
-    private void read(){
-        synchronized (Read){
+
+    private void read() {
+        synchronized (Read) {
             try {
                 TimeUnit.SECONDS.sleep(1);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            synchronized (Write){
+            synchronized (Write) {
                 System.out.println("read");
             }
         }
     }
 
-    public static void main(String[] args){
-        DiedMutex read=new DiedMutex();
-        DiedMutex write=new DiedMutex();
+    public static void main(String[] args) {
+        DiedMutex read = new DiedMutex();
+        DiedMutex write = new DiedMutex();
         new Thread(read::read).start();
         new Thread(write::write).start();
     }

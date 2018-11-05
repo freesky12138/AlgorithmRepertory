@@ -30,7 +30,7 @@ public class IslandsCount {
 
 
         public int numIslands(char[][] grid) {
-            if(grid.length==0)
+            if (grid.length == 0)
                 return 0;
             par = new int[grid.length * grid[0].length];
             rank = new int[grid.length * grid[0].length];
@@ -42,7 +42,7 @@ public class IslandsCount {
                         if (i - 1 >= 0 && grid[i - 1][j] == '1') {
                             union(par[(i - 1) * grid[i].length + j], par[i * grid[i].length + j]);
                         }
-                        if (j - 1 >= 0 && grid[i][j-1]=='1') {
+                        if (j - 1 >= 0 && grid[i][j - 1] == '1') {
                             union(par[(i) * grid[i].length + j - 1], par[i * grid[i].length + j]);
                         }
                     } else {

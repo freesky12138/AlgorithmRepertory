@@ -44,15 +44,15 @@ public class IsPrime {
         HashMap<Integer, Integer> hashMap = new HashMap<Integer, Integer>();
 
         for (int i = 2; i * i <= in; i++) {
-            if(in%i==0){
-                while (in%i==0){
-                    hashMap.put(i,hashMap.get(i)==null?0:hashMap.get(i)+1);
-                    in/=i;
+            if (in % i == 0) {
+                while (in % i == 0) {
+                    hashMap.put(i, hashMap.get(i) == null ? 0 : hashMap.get(i) + 1);
+                    in /= i;
                 }
             }
         }
-        if(in!=1)
-            hashMap.put(in,1);
+        if (in != 1)
+            hashMap.put(in, 1);
     }
 
     public static void main(String[] args) {

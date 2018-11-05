@@ -70,7 +70,7 @@ public class ThreadsEvenQueue {
     }
 
     private void console(String message) {
-        System.out.printf("%s:%s                ====%d\n", Thread.currentThread().getName(), message,evenQueue.size());
+        System.out.printf("%s:%s                ====%d\n", Thread.currentThread().getName(), message, evenQueue.size());
     }
 
 

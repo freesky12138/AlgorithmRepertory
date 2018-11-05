@@ -15,7 +15,7 @@ import java.util.stream.IntStream;
  */
 public class ThreadJoin {
     public static void main(String[] args) throws InterruptedException {
-        List<Thread> threads= IntStream.range(1,3).mapToObj(ThreadJoin::create).collect(Collectors.toList());
+        List<Thread> threads = IntStream.range(1, 3).mapToObj(ThreadJoin::create).collect(Collectors.toList());
 
         threads.forEach(Thread::start);
 
@@ -26,8 +26,8 @@ public class ThreadJoin {
             thread.join();
         }
 
-        IntStream.range(1,10).forEach(i->{
-            System.out.println(Thread.currentThread().getName()+"#"+i);
+        IntStream.range(1, 10).forEach(i -> {
+            System.out.println(Thread.currentThread().getName() + "#" + i);
             try {
                 TimeUnit.SECONDS.sleep(1);
             } catch (InterruptedException e) {
@@ -36,16 +36,16 @@ public class ThreadJoin {
         });
     }
 
-    private static Thread create(int seq){
-        return new Thread(()->{
-           for(int i=0;i<10;i++){
-                System.out.println(Thread.currentThread().getName()+"#"+i);
-               try {
-                   TimeUnit.SECONDS.sleep(1);
-               } catch (InterruptedException e) {
-                   e.printStackTrace();
-               }
-           }
-        },String.valueOf(seq));
+    private static Thread create(int seq) {
+        return new Thread(() -> {
+            for (int i = 0; i < 10; i++) {
+                System.out.println(Thread.currentThread().getName() + "#" + i);
+                try {
+                    TimeUnit.SECONDS.sleep(1);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }, String.valueOf(seq));
     }
 }

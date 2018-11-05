@@ -17,16 +17,15 @@ public class BaseThreadApi {
     //sleep是百分比能block，在给定时间释放cpu资源，而yield则不一定能放弃cpu资源
 
     /**
-     TimeUnit.DAYS          //天
-     TimeUnit.HOURS         //小时
-     TimeUnit.MINUTES       //分钟
-     TimeUnit.SECONDS       //秒
-     TimeUnit.MILLISECONDS  //毫秒
-     TimeUnit.NANOSECONDS   //毫微秒
-     TimeUnit.MICROSECONDS  /``
+     * TimeUnit.DAYS          //天
+     * TimeUnit.HOURS         //小时
+     * TimeUnit.MINUTES       //分钟
+     * TimeUnit.SECONDS       //秒
+     * TimeUnit.MILLISECONDS  //毫秒
+     * TimeUnit.NANOSECONDS   //毫微秒
+     * TimeUnit.MICROSECONDS  /``
      */
     final static AtomicInteger atomicInteger = new AtomicInteger(0);
-
 
 
     public static void main(String[] args) {
@@ -48,7 +47,7 @@ public class BaseThreadApi {
             public void run() {
                 IntStream.range(0, 100000).forEach(i -> {
 
-                        System.out.println(atomicInteger.getAndIncrement());
+                    System.out.println(atomicInteger.getAndIncrement());
 
                 });
             }

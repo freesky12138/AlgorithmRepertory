@@ -15,7 +15,7 @@ public class KMP {
 
         KMP kmp = new KMP();
         kmp.isChild(child, parent);
-        System.out.printf(kmp.KMP(child, parent)+"");
+        System.out.printf(kmp.KMP(child, parent) + "");
     }
 
     public int KMP(String child, String parent) {
@@ -35,16 +35,16 @@ public class KMP {
             }
         }
 //             00012012
-        int j=0;
+        int j = 0;
         for (int i = 0; i < cParent.length; i++) {
-            if(cParent[i]==cChild[j] ){
+            if (cParent[i] == cChild[j]) {
                 j++;
-            }else {
-                i+=next[j];
+            } else {
+                i += next[j];
             }
 
-            if(j==cChild.length){
-                return i-j;
+            if (j == cChild.length) {
+                return i - j;
             }
         }
         return -1;
