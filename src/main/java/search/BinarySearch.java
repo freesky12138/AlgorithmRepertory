@@ -1,5 +1,10 @@
 package search;
-import org.apache.commons.codec.digest.DigestUtils;
+
+import java.util.Arrays;
+import java.util.Date;
+import java.util.Random;
+import java.util.stream.IntStream;
+
 /**
  * @author hyp 1774549483@qq.com
  * @version v1.0
@@ -8,15 +13,63 @@ import org.apache.commons.codec.digest.DigestUtils;
  * @date 2018/7/20 11:33
  */
 public class BinarySearch {
-    public static void main(String[] args){
-        String f = DigestUtils.md5Hex("insurance123456");
+    private static int LENGTH = 100000000;
+    private static int[] ints = new int[LENGTH];
+    private static Random random = new Random();
 
-        byte[] bkeys = new String(f).getBytes();
-        byte[] enk = new byte[24];
-        for (int i = 0; i < 24; i++) {
-            enk[i] = bkeys[i];
+    public static void main(String[] args) {
+        //1向10亿的数据放数据
+        //2排序
+        //3二分查找
+        Long startTime = new Date().getTime();
+        //1332 IntStream.对效率有影响，影响不大
+        IntStream.range(0, LENGTH).forEach((i) -> {
+            ints[i] = random.nextInt(LENGTH);
+        });
+        //1260
+        /*
+        for(int i=0;i<LENGTH;i++){
+            ints[i]=random.nextInt(LENGTH);
+        }*/
+        Long endTime = new Date().getTime();
+        System.out.println(endTime - startTime);
+
+        //排序
+        Arrays.sort(ints);
+
+        startTime = new Date().getTime();
+
+        System.out.println(startTime - endTime);
+
+        int x = 345545;
+
+        //二分
+        int index = BSearch(0, LENGTH - 1, x);
+        System.out.println(index);
+        System.out.println(count);
+        System.out.println(ints[index]);
+
+    }
+
+    private static int count = 0;
+
+    private static int BSearch(int left, int right, int x) {
+        int now = (left + right) / 2;
+        while (now > left && now < right) {
+
+            count++;
+            if (left >= right)
+                break;
+            if (ints[now] == x) {
+                return now;
+            } else if (ints[now] > x) {
+                right = now;
+            } else {
+                left = now;
+            }
+
+            now = (left + right) / 2 + 1;
         }
-        System.out.printf(f+"\n");
-        System.out.printf(new String(enk));
+        return 0;
     }
 }
