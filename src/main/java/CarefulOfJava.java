@@ -16,5 +16,10 @@ public class CarefulOfJava {
          //bigDecimal=bigDecimal.divide(big);
          bigDecimal=bigDecimal.divide(big,2,BigDecimal.ROUND_HALF_UP);
          */
+
+        /**
+         * list的remove  如果希望删除指定的index，必须放int
+         * 而不是integer
+         */
     }
 }
