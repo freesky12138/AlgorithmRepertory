@@ -15,6 +15,10 @@ public class CarefulOfJava {
          BigDecimal big=new BigDecimal(3);
          //bigDecimal=bigDecimal.divide(big);
          bigDecimal=bigDecimal.divide(big,2,BigDecimal.ROUND_HALF_UP);
+
+         2:sql中两个数相加，a+b，如果一个未null 相加也为null
+         所以必须使用caocaseles（a，0）+caocaseles（b，0）
+         防止其中之一为null
          */
 
         /**
