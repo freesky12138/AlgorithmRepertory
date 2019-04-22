@@ -11,8 +11,29 @@ package AmazingJava;
  */
 public class ReferenceAndValue {
 
+    static class Test{
+        String val;
+
+        public Test(String test) {
+            val=test;
+        }
+
+    }
 
     public static void main(String[] args) {
+
+        String strA="String";
+        String strB="String";
+        String strC=new String("String");
+        System.out.println((strA==strB)+"");//a和b指向的是相同的地址
+        System.out.println((strA.hashCode()==strB.hashCode())+"");//a和b指向的是相同的地址
+        System.out.println((strC==strB)+"");//c new之后指向的是新的地址
+        Test testA=new Test("test");
+        Test testB=new Test("test");
+        System.out.println((strA.equals(strB))+"");//字符串的equals比较支付
+        System.out.println((testA.equals(testB))+"");//对象的equals是比较指向的地址 同==
+        System.out.println((testA.hashCode()==testB.hashCode())+"");//hashCode是在对象散列中的一个key，方便jvm使用key找到value，
+        //如果 两个对象==，一般情况下他们的hashcode也是相同的，除非重写了equel方法，在重写equal方法是，也学要从邪恶hashCode方法，使其保持一致
 
         //值传递
         int intA = 0;
