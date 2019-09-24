@@ -8,6 +8,7 @@ import java.util.HashMap;
  * @version v1.0
  * @Title:math 素数判断
  * @description
+ *
  * @date 2018/6/27 10:19
  */
 public class IsPrime {
