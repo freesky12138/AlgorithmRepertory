@@ -38,7 +38,7 @@ import java.util.concurrent.TimeUnit;
  * 3：volatile不会使线程进入阻塞，synchronized会
  */
 public class Volatile {
-    final static int MAX = 5;
+    final static int MAX = 100;
     static volatile int initValue = 0;
 
     public static void main(String[] args) {

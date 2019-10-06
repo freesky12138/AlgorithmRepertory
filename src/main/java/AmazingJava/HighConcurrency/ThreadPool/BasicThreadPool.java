@@ -106,7 +106,7 @@ public class BasicThreadPool extends Thread implements ThreadPool {
                     });
                 }
                 if (runnableQueue.size() == 0 && activeCount
-                        > coreSize) {
+                        < coreSize) {
                     IntStream.range(
                             coreSize
                             , activeCount
