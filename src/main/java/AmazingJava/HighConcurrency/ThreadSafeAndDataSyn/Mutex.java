@@ -1,7 +1,5 @@
 package AmazingJava.HighConcurrency.ThreadSafeAndDataSyn;
 
-import com.sun.prism.MaskTextureGraphics;
-
 import java.util.concurrent.TimeUnit;
 import java.util.stream.IntStream;
 
