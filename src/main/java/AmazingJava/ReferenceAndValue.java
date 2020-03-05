@@ -1,6 +1,7 @@
 package AmazingJava;
 
 
+import java.util.ArrayList;
 
 /**
  * @author hyp 1774549483@qq.com
@@ -57,6 +58,20 @@ public class ReferenceAndValue {
 
 
         objA=null;//只有这样终于把objA设置为null了 所以在java的在函数里面设置null有时并不一定会起作用
+
+        //只要传递对象就能改变其值
+        ArrayList<Test> arrayList=new ArrayList<>();
+        arrayList.add(new Test("1"));
+        arrayList.add(new Test("2"));
+        arrayList.add(new Test("3"));
+        setListData(arrayList);
+        //list的值会改变
+        System.out.println(arrayList.toString());
+    }
+
+    private static void setListData(ArrayList<Test> arrayList) {
+        arrayList.get(0).val="111";
+        arrayList.add(new Test("123"));
     }
 
     public static void setIntval(int intval) {
