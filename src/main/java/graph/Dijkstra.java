@@ -55,7 +55,6 @@ public class Dijkstra {
         dijkstraByPriorityQueue(0);
         dijkstraSavePath(0);
 
-
     }
 
     public static void dijkstra(int s) {
